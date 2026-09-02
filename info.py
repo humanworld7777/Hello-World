@@ -7,8 +7,8 @@ class Student:
   def display_info(self):
     print(f"Student Name: {self.name} | Grade: {self.grade}")
 
-student1 = Student("Alice", 96)
-student2 = Student("Bob", 88)
+student1 = Student("Alice", 9)
+student2 = Student("Bob", 8)
 
 
 student1.display_info()
