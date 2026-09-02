@@ -1,8 +1,4 @@
-
-def add_numbers(num1, num2):
-    return num1 + num2
-
-result = add_numbers(a, b)
-
-print(f"The sum of {a} and {b} is: {result}")
-  
+number1 = 15
+number2 = 30
+sum_result = number1 + number2
+print("The sum is :",sum_result)
