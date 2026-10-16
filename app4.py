@@ -52,4 +52,4 @@ def delete_product(item_id):
     return jsonify({"status": "error", "message": "Product not found"}), 404
 
 if __name__ == "__main__":
-    app.run(debug=True, port=4596)
+    app.run(debug=True, port=5009)
