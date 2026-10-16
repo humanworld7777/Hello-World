@@ -13,5 +13,5 @@ else:
   return jsonify({"status": "error", "message": "Invalid credential"}), 401
 
 if __name__ == "__main__":
-  app.run(debug=True, port=4596)
+  app.run(debug=True, port=5009)
   
